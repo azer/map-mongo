@@ -48,8 +48,8 @@ CoffeeScript:
 
 ```coffee
 people = mapmongo 'people', {
-  name : String
-  age  : Number
+  name : String # or { type: String, min: 2, max: 64, get: (name) -> "#{name}@localhost" }
+  age  : Number # or { type: Number, set: Number  }
 }
 
 joe = people {

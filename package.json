@@ -1,0 +1,29 @@
+{
+  "name": "map-mongo",
+  "version": "0.0.0",
+  "description": "A Wrapper API for MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azer/map-mongo.git"
+  },
+  "keywords": [
+    "mongodb",
+    "data-binding"
+  ],
+  "author": "Azer Koculu",
+  "license": "BSD",
+  "dependencies": {
+    "map": "0.x",
+    "mongodb": "1.1.x",
+    "functools": "1.x",
+    "debug": "git://github.com/azer/debug.git"
+  },
+  "devDependencies": {
+    "coffee-script": "x",
+    "highkick": "1.x"
+  }
+}

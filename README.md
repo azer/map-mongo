@@ -56,6 +56,10 @@ joe = people {
   name: 'Joe'
   age: 21
 }
+
+console.log joe.id() # undefined
+console.log joe.name() # 'Joe'
+console.log joe.age() # 21
 ```
 
 JavaScript:
@@ -70,6 +74,10 @@ var joe = people({
   name: 'Joe'
   age: 21
 });
+
+console.log(joe.id()); // undefined
+console.log(joe.name()); // 'Joe'
+console.log(joe.age()); // 21
 ```
 
 ### Available Methods
